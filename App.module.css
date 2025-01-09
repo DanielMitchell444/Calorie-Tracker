@@ -1,0 +1,432 @@
+/*CSS for mobile devices */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  background-color: #F5F5F5;
+}
+
+:global(.password){
+  font-size: 24px;
+}
+
+.forgotPasswordContainer {
+  text-align: left; /* Align the link to the right */
+  margin-top: 8px;   /* Add spacing above the link */
+  width: 120%;
+}
+
+.forgotPasswordLink {
+  font-size: 14px; /* Match the font size */
+  color: #00A4FF;  /* Choose a blue color similar to the example */
+  text-decoration: none; /* Remove underline by default */
+  cursor: pointer;
+}
+
+.forgotPasswordLink:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.wrappedContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.logo{
+  height: 55px;
+  width: 55px;
+  display: flex;
+  margin: 32px 0 0;
+}
+
+.containerSignUp{
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 40px 40px;
+  flex-direction: column;
+  max-width: 320px;
+  overflow-x: hidden;
+  overflow-y: hidden; /* Allow scrolling within the box if content overflows */
+  color: #FFFFFF; 
+}
+
+
+.content h1{
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  width: 320px;
+  margin: 24px 0 0;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputFields2{
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+
+.inputFields2 input{
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #c2c8d0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #2d333a;
+  font-family: inherit;
+  font-size: 16px;
+  height: 52px;
+  line-height: 1.1;
+  outline: none;
+  padding-block: 1px;
+  padding-inline: 2px;
+  padding: 0 16px;
+  transition: box-shadow .2s ease-in-out, border-color .2s ease-in-out;
+  width: 100%;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0;
+}
+
+/*CSS for login button */
+.inputFields input[type = "submit"]{
+  background: linear-gradient(135deg, #6A00FF, #9B59B6);
+  border: none;
+  border-radius: 5px;
+  width: 320px;
+  font: 16px;
+  height: 52px;
+  padding: 4px 16px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.forgot{
+  text-align: left;
+}
+
+.account{
+   text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    width: 320px;
+ }
+
+ .account h1{
+  color: black;
+ }
+
+ .account p{
+  font-size: 14px;
+   margin: 12px 0;
+  color: black;
+ }
+
+ .linkSign{
+  padding: 6px;
+  color: #fff;
+ }
+
+ .thing{
+  width: 130px;
+ }
+
+
+ .or:before,
+.or:after {
+  content: "";
+  border-bottom: 1px solid #c2c8d0;
+  flex: 1 0 auto;
+  height: .5em;
+  margin: 0;
+}
+.or{
+  display: flex
+  ;
+      flex-direction: row;
+      text-transform: uppercase;
+      border: none;
+      font-size: 12px;
+      font-weight: 400;
+      gap: 10px;
+      margin: 0;
+      padding: 0px 0 0;
+      align-items: center;
+      justify-content: center;
+      vertical-align: baseline;
+ }
+
+ .or h2{
+  font-size: 14px;
+  color: black;
+ }
+
+ .googleSignInButton {
+  cursor: pointer;
+  transition: background-color .3s, box-shadow .3s;
+  padding: 12px 16px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 12px 11px;
+  width: 320px;
+  font-size: 16px;
+  display: flex;
+  height: 52px;
+}
+
+.googleSignInButton:hover {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+}
+
+.googleSignInButton:active {
+  background-color: #eeeeee;
+}
+
+.googleSignInButton:active {
+  outline: none;
+      box-shadow: 
+      0 -1px 0 rgba(0, 0, 0, .04),
+      0 2px 4px rgba(0, 0, 0, .25),
+      0 0 0 3px #c8dafc;
+}
+
+.googleSignInButton:disabled {
+  filter: grayscale(100%);
+  background-color: #ebebeb;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+  cursor: not-allowed;
+}
+
+.microsoftSignInButton {
+  cursor: pointer;
+  transition: background-color .3s, box-shadow .3s;
+      
+  padding: 12px 16px 12px 42px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+  
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  
+  background-image: url("https://www.svgrepo.com/download/303143/microsoft-logo.svg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 12px 11px;
+  background-size: contain;
+  width: 320px;
+  font-size: 16px;
+  display: flex;
+  height: 52px;
+}
+
+.microsoftSignInButton:hover {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+}
+
+.microsoftSignInButton:active {
+  background-color: #eeeeee;
+}
+
+.microsoftSignInButton:active {
+  outline: none;
+      box-shadow: 
+      0 -1px 0 rgba(0, 0, 0, .04),
+      0 2px 4px rgba(0, 0, 0, .25),
+      0 0 0 3px #c8dafc;
+}
+
+.microsoftSignInButton:disabled {
+  filter: grayscale(100%);
+  background-color: #ebebeb;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+  cursor: not-allowed;
+}
+
+footer hr{
+  height: 10px;
+}
+
+
+.alternativeSignIn{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+ 
+ }
+
+ footer{
+  padding: 80px 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  font-size: 14px;
+  color: black
+ }
+
+ footer h1{
+  font-size: 14px;
+ }
+
+ @media(min-width: 375px) and (max-width: 426px){
+  .content{
+    padding: 40px 40px 24px;
+    box-sizing: content-box;
+  }
+
+ .forgotPasswordContainer{
+  margin-bottom: 10px;
+ }
+
+
+
+ .login{
+  margin-top: 10px;
+ }
+
+ .logo{
+  height: 60px;
+  width: 60px;
+ }
+
+ .wrappedContainer{
+  margin: 0;
+ }
+}
+
+@media(min-width: 500px) and (max-width: 768px){
+  .content{
+    padding: 40px 40px 24px;
+  }
+
+  .content h1{
+    font-size: 32px;
+    margin: 24px 0;
+  }
+
+  .containerSignUp{
+    padding: 0 40px 40px;
+  }
+
+  .login{
+    margin-top: 10px;
+  }
+}
+
+
+ /* CSS for 1024px devices */
+
+ @media(min-width: 1024px) and (max-width: 1200px){
+  .containerSignUp{
+  }
+
+  .content{
+    padding: 40px 40px 24px;
+  }
+
+  .logo{
+    height: 70px;
+    width: 70px;
+  }
+
+  .alternativeSignIn{
+    gap: 8px;
+  }
+
+  .inputFields2{
+    margin-bottom: 15px;
+  }
+  
+ }
+
+
+ @media(min-width: 1400px){
+
+  .content{
+    padding: 40px 40px 24px;
+  }
+
+  .forgotPasswordContainer{
+    margin-top: -3px;
+    margin-bottom: 10px;
+  }
+
+  .logoStuff{
+    padding: 32px 0px;
+  }
+
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+
+  .content h1{
+    font-size: 32px;
+    margin: 24px 0;
+  }
+
+  .inputFields2{
+    margin-bottom: 15px;
+  }
+
+  .forgot2{
+    width: 10%;
+    text-align: center;
+    padding: 4px;
+  }
+
+  .forgot2 p{
+    font-size: 14px;
+    color: black;
+  }
+
+  .alternativeSignIn{
+    gap: 13px;
+    margin-top: 15px;
+  }
+ }
